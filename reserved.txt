@@ -1,0 +1,24 @@
+<!-- Everyday low price -->
+        <section>
+            <!-- All Cards -->
+            <div class="">
+                <!-- Left Card -->
+                <div class="md:flex hidden">
+                    <div>
+                        <h2 class="text-3xl font-ADLam font-bold text-gray-900">T-Shirt For Dogs</h2>
+                        <h1 class="text-5xl font-ADLam font-semibold text-btn-color">$7.99</h1>
+                    </div>
+                    <div>
+                        <img src="./assets/images/cute-dog-mid.png" alt="cute-dog-mid">
+                    </div>
+                </div>
+                <!-- Right Card -->
+                <div
+                    class="bg-custom-gradient-2 relative grid gap-4 py-4 px-4 rounded-lg bg-[url('./assets/images/cute-pet-small.png')] bg-no-repeat bg-contain">
+                    <h2 class="text-3xl font-ADLam font-bold text-gray-900">T-Shirt For Dogs</h2>
+                    <h1 class="text-5xl font-ADLam font-semibold text-btn-color">$7.99</h1>
+
+                </div>
+
+            </div>
+        </section>
