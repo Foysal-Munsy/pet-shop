@@ -426,15 +426,42 @@
         </section>
 
         <!-- Everyday low price -->
-        <section class="container m-auto">
+        <section class="container m-auto mt-[90px]">
+            <h1 class="font-ADLam font-normal text-3xl md:text-4xl mb-10">Everyday low price</h1>
             <!-- All Cards -->
-            <div class="grid lg:grid-cols-3">
+            <div class="grid lg:grid-cols-3 gap-4">
                 <!-- Left Card -->
-                <div class="lg:col-span-2"></div>
+                <div
+                    class="hidden lg:flex justify-center items-center  lg:col-span-2 lg:bg-custom-gradient-1 lg:h-[450px] rounded-lg overflow-hidden">
+                    <div class="w-[40%] pl-10">
+                        <h3>Under Price</h3>
+                        <h2 class="text-3xl font-ADLam font-bold text-gray-900">Pet Grooming Mitt</h2>
+                        <h3 class="text-white font-ADLam">(Easy Hair Removal)</h3>
+                        <h1 class="text-5xl font-ADLam font-semibold text-gray-900">$7.99</h1>
+                    </div>
 
+                    <!-- image -->
+                    <div class="w-[45%] flex justify-end"><img src="./assets/images/cute-dog-mid.png" alt="cute-dog-mid"
+                            class="w-[500px]">
+                    </div>
+                </div>
 
+                <!-- Mobile Card -->
+                <div
+                    class="lg:hidden pt-14 px-2 bg-custom-gradient-1 h-[450px] relative grid gap-4 rounded-lg overflow-hidden">
+                    <!-- text -->
+                    <div>
+                        <h2 class="text-3xl font-ADLam font-bold text-gray-900">Pet Grooming Mitt</h2>
+                        <h1 class="text-5xl font-ADLam font-semibold text-white">$7.99</h1>
+                    </div>
+                    <!-- image -->
+                    <div class="absolute left-10 translate-x-[20%] translate-y-[18%]">
+                        <img src="./assets/images/cute-dog-mid.png" alt="cute-dog-mid" class="w-[86%]">
+                    </div>
+
+                </div>
                 <!-- Right Card -->
-                <div class="pt-14 px-2 bg-custom-gradient-2 h-[450px] relative grid gap-4 rounded-lg">
+                <div class="pt-14 px-2 bg-custom-gradient-2 h-[450px] relative grid gap-4 rounded-lg overflow-hidden">
                     <!-- text -->
                     <div>
                         <h2 class="text-3xl font-ADLam font-bold text-gray-900">T-Shirt For Dogs</h2>
@@ -452,7 +479,7 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="relative bg-primary-color font-sora h-auto text-black p-10 mt-[70%] lg:mt-[30%]">
+    <footer class="relative bg-primary-color font-sora h-auto text-black p-10 mt-[70%] lg:mt-[20%]">
         <div
             class="w-[90%] absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#FFF9F4] p-6 rounded-xl shadow-md flex flex-col lg:flex-row items-center lg:items-center text-center lg:text-left">
 
